@@ -185,9 +185,7 @@ function checkAndUpdateBatteryLevel() {
 }
  
     function showPet(){
-      //egg has 1 version
-      if (pets == "egg") {version = 0;}
-      else{
+     
  if (basic > age){
          //best looking versions
          if (petnaughty > age){ version=0;}
@@ -195,7 +193,7 @@ function checkAndUpdateBatteryLevel() {
          }else{
            //Worse looking versions
            if (petnaughty > age){version = 3;}
-           else{version = 2;}}}
+           else{version = 2;}}
   //0 is worst 
   //1 is best and good
   //2 is sad but good
@@ -208,16 +206,16 @@ function checkAndUpdateBatteryLevel() {
 pet.image =  "pet/"+ pets + "v" + version + "a" + seconds%2 + ".png";
     //----------Pet Evolution Egg -------------------
   if (userActivity.adjusted.steps < goals.steps/5){
-  pets = "egg";
+  pets = "pet0";
   age = 20;}
   else if ((userActivity.adjusted.steps < ((goals.steps)*2)/5) && (userActivity.adjusted.steps > ((goals.steps*1)/5))) {
-         pets = "child";
+         pets = "pet2";
          age = 30;
   }
   //----------Pet Evolution Mini Pet -------------------
   
   else if ((userActivity.adjusted.steps < ((goals.steps)*3)/5)&& (userActivity.adjusted.steps > ((goals.steps*2)/5))){
-         pets = "cup";
+         pets = "pet3";
          age = 40;
   }
   
@@ -233,7 +231,7 @@ pet.image =  "pet/"+ pets + "v" + version + "a" + seconds%2 + ".png";
   
   else if ((userActivity.adjusted.steps < goals.steps)&& (userActivity.adjusted.steps > ((goals.steps*4)/5)))
            {
-             pets = "pet4";
+             pets = "pet";
              age = 60;
            }
   //---------Game Over Pet ------------------
