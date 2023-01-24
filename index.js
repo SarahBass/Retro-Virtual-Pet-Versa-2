@@ -137,7 +137,7 @@ if (userActivity.adjusted.steps > goals.steps){background.image = "Gameover.jpeg
   if (basic < 0){basic = 0;} 
   
    //Reset stats at midnight
-if ((util.zeroPad(hours) == 0)&& (minutes == 1)){
+if ((util.zeroPad(hours) == 0)&& (mins == 1)){
   petnaughty = 0;
   poops = 0;
   basic = 0;}
@@ -277,7 +277,7 @@ pet.image =  "pet/"+ pets + "v" + version + "a" + seconds%2 + ".png";
       //Change animation in background to show game over or pet waste
     //egg No Waste
   if (userActivity.adjusted.steps < goals.steps/5){
-    poop.image ="blank.png";
+    poop.image = "poop/snakev" + poops+ "a"+seconds%2 + ".png";
   }
     //Pet makes Waste
   else if ((userActivity.adjusted.steps > goals.steps/5) &&  (userActivity.adjusted.steps < goals.steps)){
