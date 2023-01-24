@@ -1,15 +1,13 @@
 # Retro-Virtual-Pet-Versa-2
 Versa 2 Model of a Pixel Pet
 
-To publish to Versa 2, Versa, and Versa Light some settings must be changed to work with SDK 4.3
-
-Here is an example of Retro Pixel Pet from Versa 3 and Sense SDK 6.0 changed to work with older models with a 300X300 resolution screen. You can just change the x% and y% in Styles.css to adjust about 89.2%. 
+To publish to Versa 2, Versa, and Versa Lite some settings must be changed to work with SDK 4.3
 
 Important Tidbit: The older 4.3 SDK uses .gui insteas of .view and .defs. You can find an old copy of the Fitbit 2019 4.3 SDK on the [Internet Archive](https://web.archive.org/web/20191102093406/https://dev.fitbit.com/build/guides/user-interface/svg-components/buttons/#button-with-icon). 
 
 Stats heavy watch, filled with cute interactions, daily changing pictures, and fun surprises.
 
-![Alt text](https://github.com/SarahBass/Retro-Pixel-Pet/blob/main/promo/bestpromo.png)
+![Alt text](https://github.com/SarahBass/Retro-Virtual-Pet-Versa-2/blob/main/promo/Versa3_336_pixel_2%202.png)
 
 Contents: | Description:
 --------- | ------------
@@ -68,12 +66,12 @@ Pixel Pets are All Original Designs
 
 ### Cup Monster
 
-![Alt text](https://github.com/SarahBass/Retro-Pixel-Pet/blob/main/promo/Versa3_336_pixel_2%204.png)
+![Alt text](https://github.com/SarahBass/Retro-Virtual-Pet-Versa-2/blob/main/promo/Versa3_336_pixel_2%203.png)
 
 ### Cute Monster
 
-![Alt text](https://github.com/SarahBass/Retro-Pixel-Pet/blob/main/promo/Versa3_336_pixel_2%203.png)
+![Alt text](https://github.com/SarahBass/Retro-Virtual-Pet-Versa-2/blob/main/promo/Versa3_336_pixel_2.png)
 
 ### Game Over
 
-![Alt text](https://github.com/SarahBass/Retro-Pixel-Pet/blob/main/promo/Versa3_336_pixel_2%205.png)
+![Alt text](https://github.com/SarahBass/Retro-Virtual-Pet-Versa-2/blob/main/promo/Versa3_336_pixel_5.png)
