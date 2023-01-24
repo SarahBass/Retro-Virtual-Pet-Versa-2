@@ -211,13 +211,13 @@ pet.image =  "pet/"+ pets + "v" + version + "a" + seconds%2 + ".png";
   pets = "egg";
   age = 20;}
   else if ((userActivity.adjusted.steps < ((goals.steps)*2)/5) && (userActivity.adjusted.steps > ((goals.steps*1)/5))) {
-         pets = "baby";
+         pets = "child";
          age = 30;
   }
   //----------Pet Evolution Mini Pet -------------------
   
   else if ((userActivity.adjusted.steps < ((goals.steps)*3)/5)&& (userActivity.adjusted.steps > ((goals.steps*2)/5))){
-         pets = "child";
+         pets = "cup";
          age = 40;
   }
   
@@ -225,7 +225,7 @@ pet.image =  "pet/"+ pets + "v" + version + "a" + seconds%2 + ".png";
   
   else if ((userActivity.adjusted.steps < ((goals.steps)*4)/5)&& (userActivity.adjusted.steps > ((goals.steps*3)/5)))
            {
-             pets = "cup";
+             pets = "baby";
              age = 50;
            }
   
@@ -244,7 +244,7 @@ pet.image =  "pet/"+ pets + "v" + version + "a" + seconds%2 + ".png";
     age = 30;
     
   } else {
-    pets = "pet4";
+    pets = "pet";
     age = 20;
   }}
   
