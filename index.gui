@@ -46,7 +46,11 @@
   
  
  <!-- Buttons --> 
- <use id="button-1" href=href="#square-button-negative"y="$" />
- <use id="button-2" href="#square-button-neutral" y="$"/>
+   <use id="button-1"href="#square-button-neutral" y="110" class= "none">
+    <set href="#text" attributeName="text-buffer" to="Neutral" />
+  </use>
+  <use id="button-2" href="#square-button-negative" y="220" class= "none">
+    <set href="#text" attributeName="text-buffer" to="Negative" />
+  </use>
   
 </svg>
