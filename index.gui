@@ -44,9 +44,9 @@
   
 
   
- <!-- Button --> 
- <!-- Button --> 
- <use id="button-1" href="#push-button" class="none text-button primary application-fill" />
- <use id="button-2" href="#push-button" class="none text-button secondary application-fill" />
+ 
+ <!-- Buttons --> 
+ <use id="button-1" href=href="#square-button-negative"y="$" />
+ <use id="button-2" href="#square-button-neutral" y="$"/>
   
 </svg>
