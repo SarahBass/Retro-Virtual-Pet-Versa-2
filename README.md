@@ -1,2 +1,8 @@
 # Retro-Virtual-Pet-Versa-2
 Versa 2 Model of a Pixel Pet
+
+To publish to Versa 2, Versa, and Versa Light some settings must be changed to work with SDK 4.3
+
+Here is an example of Retro Pixel Pet from Versa 3 and Sense SDK 6.0 changed to work with older models with a 300X300 resolution screen. Amazingly, I did not need to alter my files. You can just change the x% and y% in Styles.css to adjust about 89.2%. I didn't even alter my backgrounds or virtual pets, they worked just fine at 100% size. The text needed alterations in styles.css. The biggest difference is that buttons are different, and that you need .gui files instead of .view and .defs. I own both a versa 2 and a versa 3, so I tested this before publishing. 
+
+Fun fact! Most users actually have a Versa 2 from 2019 becuase some health insurance policies give a $300-$400 credit for policy owners to get a free Fitbit Versa 2 watch(or Ionic-but Versa 2 is better for publishing because it is compatible with Versa lite and Versa 1). Most users also state in online forums that they are convinced that Versa 2 was the best model of all the Versa releases, and as you program for it, you will see that it actually does not have as many issues running graphics as the newer Sense and Versa 3. This is because .gui is better suited to run graphics, meanwhile .defs is better for running large amounts of data in the form of numbers and text. .Gui is better suited for running animations and games, so if you are running out of memory often think of releasing your graphics heavy game to Versa, Versa lite, or Versa 2 instead. In my personal experience, Versa 2 can also download files larger than 1.2 MB faster than Versa 3, but Versa 3 has gotten better at large downloads since the latest SDK update. 
