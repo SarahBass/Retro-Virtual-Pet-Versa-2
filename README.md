@@ -3,7 +3,7 @@ Versa 2 Model of a Pixel Pet
 
 To publish to Versa 2, Versa, and Versa Lite some settings must be changed to work with SDK 4.3
 
-Important Tidbit: The older 4.3 SDK uses .gui insteas of .view and .defs. You can find an old copy of the Fitbit 2019 4.3 SDK on the [Internet Archive](https://web.archive.org/web/20191102093406/https://dev.fitbit.com/build/guides/user-interface/svg-components/buttons/#button-with-icon). 
+Important Tidbit: The older 4.3 SDK uses .gui instead of .view and .defs. You can find an old copy of the Fitbit 2019 4.3 SDK on the [Internet Archive](https://web.archive.org/web/20191102093406/https://dev.fitbit.com/build/guides/user-interface/svg-components/buttons/#button-with-icon). 
 
 Stats heavy watch, filled with cute interactions, daily changing pictures, and fun surprises.
 
