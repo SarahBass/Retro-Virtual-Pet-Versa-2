@@ -1,10 +1,6 @@
 # Retro-Virtual-Pet-Versa-2
 Versa 2 Model of a Pixel Pet
 
-To publish to Versa 2, Versa, and Versa Lite some settings were changed to work with SDK 4.3
-
-The older 4.3 SDK uses .gui instead of .view and .defs. Fitbit 2019 4.3 SDK link: [Internet Archive](https://web.archive.org/web/20191102093406/https://dev.fitbit.com/build/guides/user-interface/svg-components/buttons/#button-with-icon). 
-
 
 ![Alt text](https://github.com/SarahBass/Retro-Virtual-Pet-Versa-2/blob/main/promo/Versa3_336_pixel_2%202.png)
 
@@ -74,3 +70,8 @@ Pixel Pets are All Original Designs
 ### Game Over
 
 ![Alt text](https://github.com/SarahBass/Retro-Virtual-Pet-Versa-2/blob/main/promo/Versa3_336_pixel_5.png)
+
+
+To publish to Versa 2, Versa, and Versa Lite some settings were changed to work with SDK 4.3
+
+The older 4.3 SDK uses .gui instead of .view and .defs. Fitbit 2019 4.3 SDK link: [Internet Archive](https://web.archive.org/web/20191102093406/https://dev.fitbit.com/build/guides/user-interface/svg-components/buttons/#button-with-icon). 
